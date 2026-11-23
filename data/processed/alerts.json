@@ -1,0 +1,128 @@
+[
+  {
+    "alert_id":"A-001",
+    "source_ip":"103.99.0.122",
+    "window_start":"2015-12-10 09:10:00",
+    "failed_logins":30,
+    "unique_usernames":19,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-002",
+    "source_ip":"103.99.0.122",
+    "window_start":"2015-12-10 09:10:00",
+    "failed_logins":30,
+    "unique_usernames":19,
+    "successful_logins":0,
+    "detector":"user_enumeration"
+  },
+  {
+    "alert_id":"A-003",
+    "source_ip":"103.99.0.122",
+    "window_start":"2015-12-10 11:00:00",
+    "failed_logins":16,
+    "unique_usernames":12,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-004",
+    "source_ip":"103.99.0.122",
+    "window_start":"2015-12-10 11:00:00",
+    "failed_logins":16,
+    "unique_usernames":12,
+    "successful_logins":0,
+    "detector":"user_enumeration"
+  },
+  {
+    "alert_id":"A-005",
+    "source_ip":"112.95.230.3",
+    "window_start":"2015-12-10 07:25:00",
+    "failed_logins":26,
+    "unique_usernames":3,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-006",
+    "source_ip":"183.62.140.253",
+    "window_start":"2015-12-10 10:50:00",
+    "failed_logins":16,
+    "unique_usernames":3,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-007",
+    "source_ip":"183.62.140.253",
+    "window_start":"2015-12-10 10:55:00",
+    "failed_logins":141,
+    "unique_usernames":8,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-008",
+    "source_ip":"183.62.140.253",
+    "window_start":"2015-12-10 10:55:00",
+    "failed_logins":141,
+    "unique_usernames":8,
+    "successful_logins":0,
+    "detector":"user_enumeration"
+  },
+  {
+    "alert_id":"A-009",
+    "source_ip":"183.62.140.253",
+    "window_start":"2015-12-10 11:00:00",
+    "failed_logins":129,
+    "unique_usernames":1,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-010",
+    "source_ip":"185.190.58.151",
+    "window_start":"2015-12-10 09:10:00",
+    "failed_logins":11,
+    "unique_usernames":2,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-011",
+    "source_ip":"187.141.143.180",
+    "window_start":"2015-12-10 09:10:00",
+    "failed_logins":25,
+    "unique_usernames":1,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-012",
+    "source_ip":"187.141.143.180",
+    "window_start":"2015-12-10 09:15:00",
+    "failed_logins":54,
+    "unique_usernames":27,
+    "successful_logins":0,
+    "detector":"brute_force"
+  },
+  {
+    "alert_id":"A-013",
+    "source_ip":"187.141.143.180",
+    "window_start":"2015-12-10 09:15:00",
+    "failed_logins":54,
+    "unique_usernames":27,
+    "successful_logins":0,
+    "detector":"user_enumeration"
+  },
+  {
+    "alert_id":"A-014",
+    "source_ip":"5.188.10.180",
+    "window_start":"2015-12-10 08:25:00",
+    "failed_logins":15,
+    "unique_usernames":4,
+    "successful_logins":0,
+    "detector":"brute_force"
+  }
+]
