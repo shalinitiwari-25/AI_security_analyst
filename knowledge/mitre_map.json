@@ -1,0 +1,27 @@
+{
+  "brute_force": {
+    "technique": "T1110 Brute Force",
+    "meaning": "Many failed logins from one IP in a short window, typically guessing passwords for one account.",
+    "actions": ["Block the source IP at the firewall", "Disable SSH password login and use keys",
+                "Enable rate limiting or fail2ban", "Check whether any login from this IP succeeded"]
+  },
+  "user_enumeration": {
+    "technique": "T1087 Account Discovery",
+    "meaning": "One IP tried many different usernames, probing which accounts exist.",
+    "actions": ["Block the source IP", "Review which usernames exist on the server",
+                "Disable unused accounts", "Watch for follow-up password attacks from the same IP"]
+  },
+  "success_after_failures": {
+    "technique": "T1078 Valid Accounts",
+    "meaning": "A login succeeded from an IP that had just failed many times; the account may be compromised.",
+    "actions": ["Treat the account as compromised: reset its password and revoke sessions",
+                "Review commands and files touched after the login", "Block the source IP",
+                "Check other accounts for logins from this IP"]
+  },
+  "isolation_forest": {
+    "technique": "Unknown (anomaly)",
+    "meaning": "The activity is statistically unusual compared with other windows, but no specific rule matched.",
+    "actions": ["Manually review the raw log lines for this IP and window",
+                "Compare with the IP's behaviour in other windows"]
+  }
+}
