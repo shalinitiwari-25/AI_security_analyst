@@ -60,3 +60,6 @@ notebook/          exploration
 - He et al., "Loghub: A Large Collection of System Log Datasets towards Automated Log Analytics", arXiv:2008.06448, 2020
 - Liu, Ting and Zhou, "Isolation Forest", IEEE ICDM, 2008
 - Russell and Norvig, *Artificial Intelligence: A Modern Approach*, 4th ed.
+- Microsoft & omdia, via CSA(2026)
+- Prophet Security survey (2025)
+- Verizon DBIR 2025
