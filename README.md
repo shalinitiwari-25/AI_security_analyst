@@ -59,5 +59,4 @@ notebook/          exploration
 - MITRE ATT&CK, https://attack.mitre.org
 - He et al., "Loghub: A Large Collection of System Log Datasets towards Automated Log Analytics", arXiv:2008.06448, 2020
 - Liu, Ting and Zhou, "Isolation Forest", IEEE ICDM, 2008
-- Russell and Norvig, *Artificial Intelligence: A Modern Approach*, 4th ed. (local search and hill climbing)
-- [Add the three 2024 to 2026 research papers used for the AI Theory component]
+- Russell and Norvig, *Artificial Intelligence: A Modern Approach*, 4th ed.
