@@ -3,7 +3,7 @@
 Detects suspicious SSH login activity in OpenSSH logs, explains each alert in plain language with an LLM (MITRE ATT&CK mapping), and tunes its own detection thresholds with hill-climbing search.
 
 ## Problem
-SSH servers are attacked continuously. Fixed-threshold tools raise thousands of terse alerts (on the full Loghub OpenSSH log: 3,762 alerts from only 191 IPs), and choosing the thresholds by hand is guesswork. The system detects attacks, explains each alert, and searches for better thresholds automatically.
+SSH servers are attacked continuously. Fixed-threshold tools raise thousands of terse alerts, and choosing the thresholds by hand is guesswork. The system detects attacks, explains each alert, and searches for better thresholds automatically.
 
 ## Features
 - Parses OpenSSH auth logs into 5-minute windows per source IP
@@ -15,10 +15,11 @@ SSH servers are attacked continuously. Fixed-threshold tools raise thousands of 
 - Streamlit dashboard
 
 ## Setup
+Requires Python 3.11+.
 ```bash
 pip install -r requirements.txt
 ```
-For Gemini, create a `.env` file in the project root (never commit it):
+For Gemini, create a `.env` file in the project root:
 ```
 GEMINI_API_KEY=your_key_here
 ```
@@ -53,7 +54,6 @@ data/              ground truth and processed sample output
 results/           tuning results and convergence chart
 notebook/          exploration
 ```
-
 
 ## References
 - MITRE ATT&CK, https://attack.mitre.org
