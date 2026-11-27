@@ -1,0 +1,7 @@
+method,thresholds,evals,steps,train_objective,test_f1,test_recall,test_false_alarms,test_alerts
+Default thresholds,"(10, 5, 5)",0,0,0.783,0.86,0.75,0.0,14.0
+Simple hill climbing,"(17, 5, 5)",20,2,0.805,0.86,0.75,0.0,10.0
+Stochastic hill climbing,"(5, 5, 5)",31,1,0.911,1.0,1.0,0.0,17.0
+Steepest-ascent,"(5, 5, 5)",31,1,0.911,1.0,1.0,0.0,17.0
+Random-restart (30),"(5, 6, 5)",1596,3,0.911,1.0,1.0,0.0,17.0
+Grid search (baseline),"(6, 6, 6)",3600,0,0.825,0.94,0.9,0.0,17.0
